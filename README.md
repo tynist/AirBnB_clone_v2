@@ -656,10 +656,10 @@ Repo:
 
 GitHub repository: AirBnB_clone_v2
 File: models/review.py, models/user.py, models/place.py
-   
-10. DBStorage - Amenity... and BOOM!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
+
+
+### 10\. DBStorage - Amenity... and BOOM!
 Update Amenity: (models/amenity.py)
 
 Amenity inherits from BaseModel and Base (respect the order)
@@ -688,6 +688,7 @@ Setter attribute amenities that handles append method for adding an Amenity.id t
 In our system, we don’t want to duplicate amenities (for example, having 10000 time the amenity `Wifi`), so they will be unique. But, at least 2 places can have the same amenity (like `Wifi` for example). We are in the case of:
 -  an amenity can be linked to multiple places
 -  a place can have multiple amenities
+
 = `Many-To-Many`
 
 To make this link working, we will create a third table called `place_amenity` that will create these links.
