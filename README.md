@@ -59,7 +59,7 @@ All your classes should have documentation (python3 -c 'print(__import__("my_mod
 All your functions (inside and outside a class) should have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 Python Unit Tests
-Allowed editors: vi, vim, emacs
+Allowed editors: vi, vim, emacs.
 All your files should end with a new line
 All your test files should be inside a folder tests
 You have to use the unittest module
