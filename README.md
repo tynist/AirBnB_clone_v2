@@ -15,7 +15,7 @@ HBNB_TYPE_STORAGE: the type of storage used. It can be “file” (using FileSto
 Resources
 Read or watch:
 
-cmd module
+### cmd module
 packages concept page
 unittest module
 args/kwargs
@@ -28,7 +28,7 @@ AirBnB clone - ORM
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+### General
 What is Unit testing and how to implement it in a large project
 What is *args and how to use it
 What is **kwargs and how to use it
