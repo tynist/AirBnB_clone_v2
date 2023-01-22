@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the db storage class for AirBnB"""
+"""This is the db storage class for AirBnB."""
 import datetime
 from os import getenv
 from sqlalchemy.orm import sessionmaker, scoped_session
@@ -15,7 +15,7 @@ from models.review import Review
 
 class DBStorage():
     """
-    Database Engine for AirBnB project
+    Database Engine for AirBnB project.
     """
     __engine = None
     __session = None

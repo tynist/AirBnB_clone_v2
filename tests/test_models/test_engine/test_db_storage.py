@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""test for databasse storage"""
+"""test for databasse storage."""
 import unittest
 from os import getenv
 from models.base_model import BaseModel

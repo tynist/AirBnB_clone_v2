@@ -11,7 +11,7 @@ from os import getenv
 
 
 class TestCity(unittest.TestCase):
-    """this will test the city class"""
+    """this will test the city class."""
 
     @classmethod
     def setUpClass(cls):
