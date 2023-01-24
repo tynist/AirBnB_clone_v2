@@ -20,7 +20,7 @@ echo -e "\e[1;32m directories created"
 echo
 
 # adds Test string
-echo "<h1>Hello World!</h1>" > /data/web_static/releases/test/index.html
+echo "<h1>Holberton School</h1>" > /data/web_static/releases/test/index.html
 echo -e "\e[1;32m Test string added\e[0m"
 echo
 
