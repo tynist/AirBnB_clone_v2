@@ -10,7 +10,7 @@ env.user = 'ubuntu'
 
 
 def do_deploy(archive_path):
-    """Distributes and compress files in an archive to a web server"""
+        """Distributes and compress files in an archive to a web server"""
         try:
                 if not (path.exists(archive_path)):
                         return False
