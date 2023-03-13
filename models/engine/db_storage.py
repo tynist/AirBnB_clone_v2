@@ -12,6 +12,11 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 
+HBNB_MYSQL_USER = getenv('HBNB_MYSQL_USER')
+HBNB_MYSQL_PWD = getenv('HBNB_MYSQL_PWD')
+HBNB_MYSQL_HOST = getenv('HBNB_MYSQL_HOST')
+HBNB_MYSQL_DB = getenv('HBNB_MYSQL_DB')
+
 
 class DBStorage():
     """
